@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en-ZA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Explore handcrafted furniture, woven lamps, baskets and home décor by Zende Handmade Creations in KwaZulu-Natal. Ask about pricing and availability on WhatsApp.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Zende Handmade Creations">
+<meta property="og:description" content="Discover woven furniture, lighting and homeware from Jabu Msomi and local KwaZulu-Natal makers.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#faf6ef">
+<title>Zende Handmade Creations | Handmade homeware from KwaZulu-Natal</title>
+<link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+<script defer src="store.js"></script>
+</head>
+<body>
+<div class="notice">Storefront preview · Sample prices in South African rand</div>
+<header class="header">
+<a href="#" class="brand"><img src="assets/logo.svg" alt=""><span>Zende<small>Handmade Creations</small></span></a>
+<nav aria-label="Main navigation"><a href="#shop">Shop</a><a href="#story">Our story</a><a href="#visit">Visit us</a></nav>
+<button id="bag" class="bag" type="button">Bag <span id="count">0</span></button>
+</header>
+<main>
+<section class="hero">
+<div class="hero-content"><p class="eyebrow">WOMAN-LED CRAFT · KWAZULU-NATAL</p><h1>Make yourself<br> <em>at home.</em></h1><p>Woven chairs for slow afternoons, lighting that warms a room, and handmade details you’ll want to live with.</p><a class="primary" href="#shop">Shop the collection</a></div>
+<div class="hero-photos"><img class="lead" fetchpriority="high" src="assets/lounge.webp" alt="Zende’s woven lounge chairs and wall baskets"><img src="assets/pendant.webp" alt="Woven pendant lamps suspended in the shop"><img src="assets/dining.webp" alt="Woven armchairs around a dining table"></div>
+</section>
+<section class="shop" id="shop">
+<div class="shop-heading"><div><p class="eyebrow">THE ZENDE COLLECTION</p><h2>Shop handmade</h2></div><label for="search">Find a piece<input id="search" type="search" placeholder="Try baskets or lamps"></label></div>
+<div class="filters" aria-label="Filter by collection" id="filters"></div><p class="results" id="results" aria-live="polite"></p><div class="grid" id="products"></div>
+</section>
+<section class="story" id="story">
+<img src="assets/studio.webp" loading="lazy" alt="Baskets and woven pendant lights in the Zende shop">
+<div><p class="eyebrow">THE MAKER BEHIND ZENDE</p><h2>Meet Jabu Msomi.</h2><p>Jabu founded Zende Handmade Creations, a woman-run KwaZulu-Natal business that brings together the work of local makers. Her collection spans woven seating and lighting, baskets, macramé and accessories.</p><p>Jabu has also shared her love of craft through crochet workshops. Follow Zende for future workshops, new pieces and market appearances.</p><a class="secondary" href="https://www.instagram.com/zendehandmadecreations/" target="_blank" rel="noopener">Follow Zende on Instagram</a></div>
+</section>
+<section class="visit" id="visit"><p class="eyebrow">SEE THE WEAVE UP CLOSE</p><h2>Find Zende in person.</h2><div class="locations"><article><h3>Piggly Wiggly</h3><p>R103, Midlands Meander, KwaZulu-Natal</p><a href="https://www.pigglywiggly.co.za/retail/" target="_blank" rel="noopener">View retail directory</a></article><article><h3>The Barn at Westown Square</h3><p>Shongweni, KwaZulu-Natal</p><a href="https://westownsquare.co.za/the-craft-of-zende/" target="_blank" rel="noopener">See the Westown feature</a></article></div><p>Ask Jabu about current stock, workshop dates or a visit.</p><a class="primary" href="https://wa.me/27723757636" target="_blank" rel="noopener">Enquire on WhatsApp</a></section>
+</main>
+<footer><a href="#" class="brand"><img src="assets/logo.svg" alt=""><span>Zende<small>Handmade Creations</small></span></a><a href="mailto:jmsomi@gmail.com">Email Zende</a><a href="https://www.instagram.com/zendehandmadecreations/">Instagram</a></footer>
+<dialog id="product-dialog" aria-label="Product details"><form method="dialog" class="close-form"><button aria-label="Close product details">×</button></form><div id="product-detail"></div></dialog>
+<dialog id="cart-dialog" aria-labelledby="cart-title"><form method="dialog" class="close-form"><button aria-label="Close shopping bag">×</button></form><h2 id="cart-title">Your bag</h2><div id="cart-content"></div></dialog>
+<div id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
